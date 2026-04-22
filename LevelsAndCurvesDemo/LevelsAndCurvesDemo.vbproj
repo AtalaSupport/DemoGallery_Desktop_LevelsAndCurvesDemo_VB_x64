@@ -256,6 +256,12 @@
   <ItemGroup>
     <Folder Include="My Project\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinDemoHelperMethods\WinDemoHelperMethods.vbproj">
+      <Project>{35b8cd0b-0253-4c5b-b5ca-6f0ac4e2dccc}</Project>
+      <Name>WinDemoHelperMethods</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
     <PreBuildEvent>
